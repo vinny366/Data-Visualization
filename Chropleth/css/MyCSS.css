@@ -1,20 +1,25 @@
 
  .links line {
      stroke: #999;
-     stroke-opacity: 0.6;
+     stroke-opacity: 0.5;
  }
 
 .nodes circle {
     stroke: #fff;
     stroke-width: 1.5px;
 }
-
+// Adding important for preference to this styles
 #worldMapContainer{
-    width:700px;
-    height:500px;
+    width:700px !important;
+    height:500px !important;
 }
 
 #usaMapContainer{
-    width:465px;
-    height:500px;
+    width:465px !important;
+    height:500px !important;
+}
+
+*{
+ margin:0px;
+ padding:0px;
 }
